@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h1>RR</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Programmer,</p>
+                <h1>Hii, I'm Radha Raman <br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------about------------------------ -->
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./media/img.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-titles">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, veritatis soluta consequatur alias
+                        dolor eaque laborum officiis minima dolorum aspernatur fugit, ipsa adipisci repellat. Temporibus
+                        quae a culpa nobis nemo sunt tenetur minima, possimus, dolorem laborum in neque corrupti quasi
+                        labore aut modi? Id voluptates quae, quos aspernatur quidem aut.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>one word</span> <br> Lorem ipsum dolor sit amet.</li>
+                            <li><span>one word</span> <br> Lorem ipsum dolor sit amet.</li>
+                            <li><span>one word</span> <br> Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span> <br> Lorem ipsum dolor sit amet.</li>
+                            <li><span>2022</span> <br> Lorem ipsum dolor sit amet.</li>
+                            <li><span>2022</span> <br> Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span> <br> Lorem ipsum dolor </li>
+                            <li><span>2022</span> <br> Lorem ipsum dolor sit</li>
+                            <li><span>2022</span> <br> Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------services----------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Dev</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn More...</a>
+                </div>
+                <div>
+                    <h2>Web Dev</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn More...</a>
+                </div>
+                <div>
+                    <h2>Web Dev</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn More...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------Portfolio----------------------- -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./media/w1.png" alt="">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, quasi!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./media/w2.png" alt="">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, quasi!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./media/w3.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, quasi!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------contact----------------------- -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="colcont-left">
+                    <h1 class="sub-titles">Contact Me</h1>
+                    <p>radharaman120506@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="linkedin"><i class="">linkedin</i></a>
+                        <a href="insta"><i class="">insta</i></a>
+                    </div>
+                    <a href="./media/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="colcont-right">
+                    <form action="">
+                        <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright &copy; RR. Made For Learning</p>
+    </div>
+
+</body>
+
+</html>
